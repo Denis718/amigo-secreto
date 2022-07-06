@@ -1,0 +1,87 @@
+/* src/componentes/Formulario.css */
+.grupo-select-btn {
+    margin: 32px;
+
+}
+
+.grupo-select-btn select {
+    border-radius: 45px;
+    height: 82px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 32px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 0px 1px #000000;
+    display: block;
+    margin-bottom: 32px;
+}
+
+.grupo-select-btn select:focus {
+    outline: none;
+}
+
+.grupo-select-btn button {
+    margin-top: 32px;
+    border-radius: 45px;
+    border-bottom-right-radius: 45px;
+    height: 82px;
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    font-size: 20px;
+    color: #ffffff;
+    box-shadow: 2px 2px 0px 1px #000000;
+    cursor: pointer;
+    background: #FE652B;
+}
+
+.grupo-select-btn button:hover {
+    background: rgba(75, 105, 253, 0.99);
+}
+
+.grupo-select-btn button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+.sorteado {
+    margin: 32px;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(254, 101, 43, 0.99);
+
+    mix-blend-mode: normal;
+    display: block;
+}
+
+.grupo-select-btn img{
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 800px) {
+    .alerta {
+        margin: 48px 0;
+    }
+
+    .grupo-select-btn input {
+        display: block;
+        width: 100%;
+        border-radius: 45px;
+        box-shadow: 0px 2px 0px 1px #000000;
+        margin-bottom: 18px;
+    }
+
+    .grupo-select-btn button {
+        display: block;
+        margin-top: 16px;
+        margin: 0 auto;
+        width: 220px;
+        border-radius: 45px;
+    }
+}
